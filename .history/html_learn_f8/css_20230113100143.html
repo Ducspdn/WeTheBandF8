@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>HELLO</title>
+        <style>
+            .box1{
+                background: green;
+                width: 100px;
+                height: 100px;
+                color: yellow;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding : 10px ;
+                /* css boder : viền bao xung quanh và solid mặc định là 2px */
+                border: 5px;
+                border-color: blueviolet;
+                border-style: solid;
+                margin: 50px;
+                float: left;
+                box-sizing: border-box;
+                /* background clip : dùng để chỉ đổ màu  */
+                background-clip:content-box ;
+                /*css boder-box ,css padding-box */
+                /* background-image : chứa đường dẫn ảnh , url() */
+                /* background-size : có tính năng respeat : lặp lại*/
+            }
+            .box2{
+                background : red;
+                width: 100px;
+                height: 100px;
+                color: aliceblue;
+                display : flex ;
+                justify-content: center;
+                align-items: center;
+                border : 10px ;
+                /* solid : nét lièn */
+                border-style: solid;
+                border-color: yellow;
+                padding : 5px ;
+                /* css margin : không làm tăng kich thước của element và nó dùng di chuyển element đến vị trí khác */
+                margin : 10px;
+                float: left;
+                box-sizing: border-box;
+                /* box-sizing : boder-box : công dụng dùng để trả về kich thước ban đầu mong muốn  sau khi bị thay đổi = padding + magrin + boder */
+                /* box-sizing: content-box;  trả về công dụng ban đầu */
+            }
+            .box3{
+                background: yellow;
+                width: 100px;
+                height: 100px;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*  css padding : đệm làm backgroud lớn hơn  */
+                padding-top: 20px;
+                padding-right: 30px;
+                /* css margin : không tắng kich thước element , dùng để di chuyển đến vị trí mới  */
+                margin-right :100px ;
+                /* boder : viền bao xung quanh các eletment, boder và padding làm tăng kich thước */
+                border: 10px solid green;
+                /* float : left : đưa các element vè bên trái trên màn hình */
+                float : left ;
+            }
+            #image{
+                width: 100%;
+                height: 100vh;
+                background-image: url(https://img.lovepik.com/free-png/20211214/lovepik-beauty-travel-camera-taking-photo-png-image_401623449_wh1200.png);
+                background-size: 100px; 
+                /* bằng luôn kich thước cảu ô chứa nó : % */
+                /* có tính năng lặp lại ảnh nên cần background-repeat :để bỏ tính nắng lặp lại */
+                /* background : có nhiệm vụ chỉnh lại ảnh : 100px : tương ứng với chiều ngang */
+                /* background-repeat : có tính năng lặp lại , cần no-reapeat để bỏ lặp lại */
+                /* background-repeat: no-repeat; */
+                background-repeat: repeat-x;
+                background-repeat: repeat-y;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- division : là thẻ dùng để nhóm nhiều phần tử trong html thành một khối để dễ dàng css -->
+        <div class=" box box1">BOX1</div>
+        <div class=" box box2"> BOX2 BOX2 BOX2 BOX3 </div>
+        <div class=" box box3">BOX3</div>
+        <div id="image"></div>
+    </body>
+
+</html>

@@ -1,0 +1,46 @@
+*{
+    /* ReSet CSS */
+    padding :0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* từ ngoài vào trong */
+/* từ trên xuống dưới */
+/* từ tổng quan đến chi tiết */
+/* vị trí */
+/* kích thước */
+/* màu sắc */
+/* kiểu dáng : kiểu chữ , hình tròn , hình vuông .... */
+#main {
+
+}
+#header {
+    /* width :100% ; */
+    height: 46.5px;
+    background-color: rgba(225, 205, 255, 0.5);
+}
+#nav{
+
+}
+#nav li{
+    display : inline-block ;
+    /* vì inline nên khong set được thuộc tính */
+}
+#nav li a {
+    text-decoration: none ;
+    color : #fff ;
+    line-height: 46.5px;
+}
+#nav .subnav{
+    display: none;
+}
+#slider {
+
+}
+#content {
+
+}
+
+#footer {
+
+}

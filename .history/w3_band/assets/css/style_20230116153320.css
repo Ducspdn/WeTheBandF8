@@ -1,0 +1,43 @@
+*{
+    /* ReSet CSS */
+    padding :0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* từ ngoài vào trong */
+/* từ trên xuống dưới */
+/* từ tổng quan đến chi tiết */
+/* vị trí */
+/* kích thước */
+/* màu sắc */
+/* kiểu dáng : kiểu chữ , hình tròn , hình vuông .... */
+#main {
+
+}
+#header {
+    background-color: #000;
+    /* width :100% ; */
+    height: 46.5px;
+}
+#nav{
+font-style: normal;
+}
+#nav li{
+    display : inline-block ;
+}
+#nav li a {
+    text-decoration: none ;
+}
+#nav .subnav{
+    display: none;
+}
+#slider {
+
+}
+#content {
+
+}
+
+#footer {
+
+}

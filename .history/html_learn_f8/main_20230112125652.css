@@ -1,0 +1,24 @@
+h1{
+    font-size: 50;
+    color: blue;
+}
+/* no id and class */
+p{
+    color: green;
+}
+/* id */
+#first_ul{
+    font-size: 20px;
+    color : green ;
+}
+/* class */
+.second_ul{
+    font-size: 50px ;
+    color: crimson;
+}
+:root{
+    --my_color : red ;
+}
+p{
+    color : var(--my_color);
+}

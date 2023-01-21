@@ -1,0 +1,15 @@
+.image{
+    width: 100%;
+    height: 100vw;
+    background-image: url(https://lh4.googleusercontent.com/D9q53K_kx-v8TbsDhXVxJnB9q0uRcwSckGSxfJwPv0f4etFZK-qfzjK928S6tYoEHM2s3pKgU5segqC0r0IcGONzllJ2FO-DYcemJ2ra0QUwCsoPv6T8ymEx_FZeNqLWuTJrJPkTShbnslKT-0c7cPg);
+    padding: 20px;
+    margin: 10px;
+    border: 20px , solid , green;
+    background-size: 10%;
+    background-repeat: no-repeat ;
+    box-sizing: border-box;  
+    background-origin: padding-box;
+    /* background-origin: content-box; */
+    /* background-origin : đi kèm với background-image */
+    /* background-color : đi kèm background-clip */
+}

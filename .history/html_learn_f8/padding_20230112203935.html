@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>HELLO</title>
+        <style>
+            .box1{
+                background: green;
+                width: 100px;
+                height: 100px;
+                color: yellow;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding : 10px ;
+                /* css boder : viền bao xung quanh và solid mặc định là 2px */
+                border: 5px;
+                border-color: blueviolet;
+                border-style: solid;
+                margin: 50px;
+            }
+            .box2{
+                background : red;
+                width: 100px;
+                height: 100px;
+                color: aliceblue;
+                display : flex ;
+                justify-content: center;
+                align-content: center;
+                border-top : 10px ;
+                border-style: dashed;
+                border-color: yellow;
+                /* css margin : không làm tăng kich thước của element và nó dùng di chuyển element đến vị trí khác */
+                margin : 10px;
+                
+            }
+            .box3{
+                background: yellow;
+                width: 100px;
+                height: 100px;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*  css padding : đệm làm backgroud lớn hơn  */
+                padding-top: 20px;
+                padding-right: 30px;
+                /* css margin : không tắng kich thước element , dùng để di chuyển đến vị trí mới  */
+                margin-right :100px ;
+                /* boder : viền bao xung quanh các eletment, boder và padding làm tăng kich thước */
+                border: 10px solid green;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- division : là thẻ dùng để nhóm nhiều phần tử trong html thành một khối để dễ dàng css -->
+        <div class=" box box1">BOX1</div>
+        <div class=" box box2"> BOX2</div>
+        <div class=" box box3">BOX3</div>
+
+    </body>
+
+</html>
